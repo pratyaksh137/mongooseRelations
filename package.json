@@ -5,7 +5,7 @@
   "main": "onetoone.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon onetoone.js"
+    "start": "nodemon onetomany.js"
   },
   "keywords": [],
   "author": "",
