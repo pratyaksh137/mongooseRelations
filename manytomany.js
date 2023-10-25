@@ -12,6 +12,7 @@ const houseSchema = new mongoose.Schema({
     pincode: Number
 }, { collection: 'houses' });
 
+//Below schema defined to create an intersection collection between owners and houses.
 const houseowner = new mongoose.Schema({
     houseOwner: { type: mongoose.Schema.Types, ref: 'Owner' },
     ownerHouse: { type: mongoose.Schema.Types, ref: 'House' }
